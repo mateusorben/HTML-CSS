@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: #77D8E1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;   
+}
+
+h2 {
+    color: #269EA8;
+    background-color: #4C5D5E;
+    width: 250px;
+    font-size: 22px;
+}
+
+#h2 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#perfil {
+    box-shadow: 5px 5px 15px rgba(104, 114, 97, 0.651);
+    border-radius: 15px; /*arredondar as bordas*/
+    width: 200px;
+   margin: auto;
+}
+
+a {
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {            /*pra dps de visitado o link*/
+    color: darkred
+}
+
+a:hover {             /* pra quando passar o mouse em cima mudar de cor */
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {             /*pra quando clicar no link mudar de cor*/
+    color: yellow;
+}
